@@ -1,0 +1,52 @@
+header {
+  width: 100vw;
+  height: 380px;
+  display: flex;
+  background-image: linear-gradient(
+      90deg,
+      rgb(43, 43, 43) 0%,
+      rgb(255, 153, 102, 0.5) 70%,
+      rgb(255, 94, 98, 0.2) 100%
+    ),
+    url(/images/background.jpg);
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header > img {
+  margin-bottom: 30px;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header__text--fir {
+  display: inline-flex;
+}
+
+.p--fir {
+  color: var(--orange);
+  margin-right: 8px;
+}
+
+.header__text--thi {
+  display: flex;
+}
+
+.p--las {
+  margin-left: 8px;
+  transition: color 0.5s ease;
+}
+
+.p--las:hover {
+  color: var(--red);
+  cursor: pointer;
+}

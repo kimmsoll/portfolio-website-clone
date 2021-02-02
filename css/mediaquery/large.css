@@ -1,0 +1,185 @@
+@media screen and (min-width: 1280px) and (max-width: 1800px) {
+  body {
+    width: 1800px;
+    position: relative;
+  }
+
+  header {
+    width: 32vw;
+    height: 80vh;
+    position: fixed;
+    left: 0;
+    background: none;
+    background-image: linear-gradient(
+        0deg,
+        rgb(43, 43, 43) 0%,
+        rgb(255, 153, 102, 0.5) 50%,
+        rgb(255, 94, 98, 0.2) 100%
+      ),
+      url(/images/background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-top: 120px;
+    box-sizing: border-box;
+  }
+
+  #man {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 3vw;
+  }
+
+  .header__text {
+    font-size: 20px;
+    align-items: flex-end;
+    margin-right: 3vw;
+    color: whitesmoke;
+  }
+
+  .p--fir {
+    color: darkslateblue;
+  }
+
+  main {
+    width: 50vw;
+    position: absolute;
+    left: 36vw;
+    top: 60px;
+  }
+
+  .intro,
+  .bar {
+    width: 50vw;
+  }
+
+  button {
+    width: 180px;
+    margin-bottom: 30px;
+  }
+
+  .intro__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 70px 0px 40px 0px;
+  }
+
+  .intro__subtitle,
+  .contact__subtitle {
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+
+  .works__title,
+  .contact__title {
+    font-size: 25px;
+    margin: 60px 0px 40px 0px;
+  }
+
+  .works__images--fir,
+  .works__images--sec,
+  .works__images--las {
+    display: flex;
+  }
+
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5,
+  #img6 {
+    width: 20vw;
+    height: 12vw;
+  }
+
+  .left-img {
+    margin-right: 2vw;
+  }
+
+  .contact {
+    width: 50vw;
+    padding-bottom: 40px;
+  }
+
+  .contact__contents {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact__inputs__input {
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+  }
+
+  #input--name,
+  #input--email {
+    width: 14.5vw;
+    margin-bottom: 1vw;
+  }
+
+  #input--message {
+    width: 30vw;
+    height: 12vw;
+  }
+
+  .contact__icons {
+    width: 22vw;
+    margin-top: 0px;
+  }
+  .contact__icons__home > i {
+    margin-top: -20px;
+  }
+  .contact__icons__home > i,
+  .contact__icons__phone > i,
+  .contact__icons__email > i {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .contact__icons__home > span,
+  .contact__icons__phone > span,
+  .contact__icons__email > span {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .contact__icons__phone > span,
+  .contact__icons__email > span {
+    margin-top: -20px;
+  }
+
+  footer {
+    width: 32vw;
+    height: 20vh;
+    position: fixed;
+    left: 0;
+    top: 80vh;
+    background: linear-gradient(
+      0deg,
+      rgba(255, 132, 70, 0.3) 0%,
+      rgba(124, 63, 64, 0.3) 50%,
+      rgb(43, 43, 43) 100%
+    );
+    display: flex;
+    align-items: flex-end;
+  }
+  .footer__icons {
+    font-size: 25px;
+    margin: 30px 3vw 30px 0px;
+  }
+  .footer__icons > i {
+    margin-left: 13px;
+  }
+  .footer__text {
+    display: inline;
+    margin-right: 3vw;
+  }
+  .footer__text--fir,
+  .footer__text--sec {
+    border-right: 1px solid var(--darkgray);
+    padding-right: 5px;
+    margin-right: 5px;
+  }
+}

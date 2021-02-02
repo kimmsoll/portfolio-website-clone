@@ -1,0 +1,27 @@
+@import 'reset.css';
+@import 'components.css';
+@import 'img.css';
+@import 'header.css';
+@import 'main.css';
+@import 'footer.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+@import 'mediaquery/mobile.css';
+@import 'mediaquery/small.css';
+@import 'mediaquery/medium.css';
+@import 'mediaquery/large.css';
+@import 'mediaquery/big.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  color: var(--black);
+}

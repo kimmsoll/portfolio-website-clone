@@ -1,0 +1,141 @@
+@media screen and (min-width: 736px) and (max-width: 980px) {
+  body {
+    width: 980px;
+    position: relative;
+  }
+  #man {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+  }
+  header {
+    width: 100vw;
+    height: 480px;
+    position: absolute;
+    left: 0;
+  }
+  .header__text {
+    line-height: 40px;
+    font-size: 25px;
+    color: rgb(255, 246, 246);
+  }
+
+  .intro {
+    width: 85vw;
+  }
+
+  main {
+    width: 100vw;
+    margin: 0px 5vw;
+    position: absolute;
+    left: 0;
+    top: 540px;
+  }
+
+  .bar {
+    width: 85vw;
+  }
+
+  button {
+    width: 180px;
+    margin-bottom: 30px;
+  }
+
+  .intro__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 40px 0px;
+  }
+
+  .intro__subtitle,
+  .contact__subtitle {
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+
+  .works__title,
+  .contact__title {
+    font-size: 25px;
+    margin: 60px 0px 40px 0px;
+  }
+
+  .works__images {
+    width: 85vw;
+  }
+
+  .works__images--fir,
+  .works__images--sec,
+  .works__images--las {
+    display: flex;
+  }
+
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5,
+  #img6 {
+    width: 40vw;
+    height: 24vw;
+    border-radius: 5px;
+  }
+
+  .left-img {
+    margin-right: 3vw;
+  }
+
+  .contact {
+    width: 85vw;
+    padding-bottom: 240px;
+  }
+
+  .contact__contents {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact__icons {
+    width: 40vw;
+    margin-top: 0px;
+  }
+
+  .contact__icons__home > i,
+  .contact__icons__phone > i,
+  .contact__icons__email > i {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .contact__icons__home > i {
+    margin-top: -25px;
+  }
+
+  .contact__icons__phone > span,
+  .contact__icons__email > span {
+    margin-bottom: 18px;
+  }
+
+  .contact__inputs__input {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+  }
+
+  #input--name,
+  #input--email {
+    width: 24vw;
+    margin-bottom: 2vw;
+  }
+  #input--message {
+    width: 50vw;
+    height: 20vw;
+  }
+  footer {
+    width: 100vw;
+    height: 240px;
+    position: absolute;
+    left: 0;
+    top: 2800px;
+    bottom: 0;
+  }
+}

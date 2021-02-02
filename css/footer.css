@@ -1,0 +1,44 @@
+footer {
+  width: 100vw;
+  height: 200px;
+  background-image: linear-gradient(
+      90deg,
+      rgb(43, 43, 43) 0%,
+      rgb(255, 153, 102, 0.5) 50%,
+      rgb(255, 94, 98, 0.2) 100%
+    ),
+    url(/images/background.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+}
+
+.footer__icons {
+  font-size: 30px;
+  margin: 30px 0px;
+  opacity: 0.7;
+}
+
+.footer__icons > i {
+  margin-right: 10px;
+  transition: all 0.5s ease;
+}
+
+.footer__icons > i:hover {
+  color: var(--red);
+  cursor: pointer;
+}
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__text > span {
+  font-size: 12px;
+  margin-bottom: 15px;
+}

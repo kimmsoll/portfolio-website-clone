@@ -1,0 +1,90 @@
+@media screen and (min-width: 360px) and (max-width: 736px) {
+  body {
+    width: 736px;
+    position: relative;
+  }
+
+  header {
+    width: 100vw;
+    height: 370px;
+    position: absolute;
+    left: 0;
+    color: var(--black);
+  }
+
+  .intro {
+    width: 90vw;
+  }
+
+  main {
+    width: 100vw;
+    margin: 0px 4vw;
+    position: absolute;
+    left: 0;
+    top: 370px;
+  }
+
+  .bar {
+    width: 90vw;
+  }
+
+  .works__images {
+    width: 90vw;
+  }
+
+  .works__images--fir,
+  .works__images--sec,
+  .works__images--las {
+    display: flex;
+  }
+
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5,
+  #img6 {
+    width: 45vw;
+    height: 27vw;
+    border-radius: 5px;
+  }
+
+  .left-img {
+    margin-right: 3vw;
+  }
+
+  .contact {
+    width: 90vw;
+  }
+
+  .contact__inputs {
+    width: 90vw;
+  }
+
+  .contact__inputs__input {
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+  }
+
+  #input--name,
+  #input--email {
+    width: 44vw;
+  }
+
+  #input--message {
+    width: 90vw;
+  }
+
+  .contact__icons {
+    padding-bottom: 185px;
+  }
+  footer {
+    width: 100vw;
+    height: 185px;
+    position: absolute;
+    left: 0;
+    top: 2500px;
+    bottom: 0;
+  }
+}

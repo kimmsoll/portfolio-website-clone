@@ -1,0 +1,16 @@
+#man {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6 {
+  width: 300px;
+  height: 180px;
+  border-radius: 5px;
+}

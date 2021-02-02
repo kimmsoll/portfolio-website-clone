@@ -1,0 +1,99 @@
+main {
+  width: 300px;
+  margin: 0px 20px;
+}
+
+.intro__title {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--darkgray);
+  line-height: 30px;
+  margin: 30px 0px;
+}
+
+.intro__subtitle,
+.contact__subtitle {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.works__title,
+.contact__title {
+  font-size: 18px;
+  color: var(--darkgray);
+  margin: 40px 0px 20px 0px;
+}
+
+.works__images__title {
+  font-size: 15px;
+  color: var(--darkgray);
+  margin-top: 30px;
+}
+
+.works__images__subtitle {
+  font-size: 12px;
+  margin: 15px 0px 35px 0px;
+}
+
+#input--name,
+#input--email {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid var(--lightgray);
+  background-color: var(--lightgray);
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+#input--name::placeholder,
+#input--email::placeholder {
+  color: var(--gray);
+}
+
+#input--message {
+  width: 300px;
+  height: 130px;
+  background-color: var(--lightgray);
+  border: 1px solid var(--lightgray);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--gray);
+}
+
+.contact {
+  width: 300px;
+}
+
+.contact__icons {
+  margin-top: 30px;
+}
+
+.contact__icons__home,
+.contact__icons__phone,
+.contact__icons__email {
+  display: flex;
+  align-items: center;
+  line-height: 25px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.contact__icons__home > i {
+  margin-right: 15px;
+  margin-bottom: 50px;
+}
+
+.contact__icons__phone > i {
+  margin-right: 20px;
+  margin-left: 3px;
+}
+
+.contact__icons__email > i {
+  margin-right: 17px;
+}
