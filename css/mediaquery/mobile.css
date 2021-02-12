@@ -1,4 +1,4 @@
-@media screen and (min-width: 360px) and (max-width: 736px) {
+@media screen and (max-width: 736px) {
   body {
     width: 736px;
     position: relative;
@@ -7,8 +7,20 @@
   header {
     width: 100vw;
     height: 370px;
+    display: flex;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 198, 74, 0.6) 0%,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.1) 100%
+      ),
+      url(/images/background.jpeg);
+    background-size: cover;
     position: absolute;
     left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .intro {
@@ -78,12 +90,25 @@
   .contact__icons {
     padding-bottom: 185px;
   }
+
   footer {
     width: 100vw;
     height: 185px;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 198, 74, 0.7) 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(/images/background.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     left: 0;
     top: 2500px;
     bottom: 0;
+    align-items: center;
+    justify-content: center;
+    color: var(--black);
   }
 }
