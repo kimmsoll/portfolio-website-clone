@@ -22,6 +22,6 @@ body {
   align-items: center;
 }
 
-header {
-  color: var(--black);
+.header__text {
+  color: var(--gray);
 }
