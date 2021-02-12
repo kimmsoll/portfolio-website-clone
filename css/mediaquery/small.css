@@ -8,12 +8,26 @@
     height: 110px;
     border-radius: 50%;
   }
+
   header {
     width: 100vw;
     height: 480px;
+    display: flex;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 198, 74, 0.6) 0%,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.1) 100%
+      ),
+      url(/images/background.jpeg);
+    background-size: cover;
     position: absolute;
     left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+
   .header__text {
     line-height: 40px;
     font-size: 25px;
@@ -129,12 +143,25 @@
     width: 50vw;
     height: 20vw;
   }
+
   footer {
     width: 100vw;
     height: 240px;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 198, 74, 0.7) 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(/images/background.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     left: 0;
     top: 2800px;
     bottom: 0;
+    align-items: center;
+    justify-content: center;
+    color: var(--black);
   }
 }
