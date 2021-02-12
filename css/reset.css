@@ -124,8 +124,7 @@ table {
 }
 
 :root {
-  --red: rgb(255, 94, 98);
-  --orange: rgb(255, 153, 102);
+  --orange: rgb(255, 148, 95);
   --black: rgb(43, 42, 42);
   --darkgray: rgb(109, 109, 109);
   --gray: rgb(179, 179, 179);

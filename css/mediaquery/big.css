@@ -10,13 +10,13 @@
     position: fixed;
     left: 0;
     background: none;
-    background-image: linear-gradient(
+    background: linear-gradient(
         0deg,
-        rgb(43, 43, 43) 0%,
-        rgb(255, 153, 102, 0.5) 50%,
-        rgb(255, 94, 98, 0.2) 100%
+        rgba(255, 198, 74, 1) 0%,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.3) 100%
       ),
-      url(/images/background.jpg);
+      url(/images/background.jpeg);
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -36,7 +36,6 @@
     font-size: 22px;
     align-items: flex-end;
     margin-right: 3vw;
-    color: whitesmoke;
   }
 
   main {
@@ -44,10 +43,6 @@
     position: absolute;
     left: 36vw;
     top: 60px;
-  }
-
-  .p--fir {
-    color: darkslateblue;
   }
 
   .intro,
@@ -158,9 +153,8 @@
     top: 80vh;
     background: linear-gradient(
       0deg,
-      rgba(255, 132, 70, 0.3) 0%,
-      rgba(124, 63, 64, 0.3) 50%,
-      rgb(43, 43, 43) 100%
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(255, 198, 74, 1) 100%
     );
     display: flex;
     align-items: flex-end;
