@@ -12,7 +12,6 @@
   header {
     width: 100vw;
     height: 480px;
-    display: flex;
     background: linear-gradient(
         0deg,
         rgba(255, 198, 74, 0.6) 0%,
@@ -21,11 +20,12 @@
       ),
       url(images/background.jpeg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     left: 0;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
 
   .header__text {

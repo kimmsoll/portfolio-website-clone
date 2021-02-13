@@ -7,9 +7,6 @@
   header {
     width: 32vw;
     height: 80vh;
-    display: flex;
-    flex-direction: column;
-    background: none;
     background: linear-gradient(
         0deg,
         rgba(255, 198, 74, 1) 0%,
@@ -18,6 +15,8 @@
       ),
       url(images/background.jpeg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     position: fixed;
     left: 0;
     align-items: flex-end;
