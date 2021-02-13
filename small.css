@@ -19,7 +19,7 @@
         rgba(0, 0, 0, 0.5) 50%,
         rgba(0, 0, 0, 0.1) 100%
       ),
-      url(/images/background.jpeg);
+      url(images/background.jpeg);
     background-size: cover;
     position: absolute;
     left: 0;

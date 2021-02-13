@@ -15,7 +15,7 @@
         rgba(0, 0, 0, 0.5) 50%,
         rgba(0, 0, 0, 0.3) 100%
       ),
-      url(/images/background.jpeg);
+      url(images/background.jpeg);
     background-size: cover;
     position: fixed;
     left: 0;
