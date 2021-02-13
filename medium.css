@@ -1,22 +1,21 @@
-@media screen and (min-width: 1800px) and (max-width: 1930px) {
+@media screen and (min-width: 980px) and (max-width: 1280px) {
   body {
-    width: 1930px;
+    width: 1280px;
     position: relative;
   }
 
   header {
-    width: 32vw;
-    height: 80vh;
+    width: 28vw;
+    height: 70vh;
     display: flex;
     flex-direction: column;
-    background: none;
     background: linear-gradient(
         0deg,
         rgba(255, 198, 74, 1) 0%,
         rgba(0, 0, 0, 0.5) 50%,
         rgba(0, 0, 0, 0.3) 100%
       ),
-      url(images/background.jpeg);
+      url(/images/background.jpeg);
     background-size: cover;
     position: fixed;
     left: 0;
@@ -24,40 +23,44 @@
   }
 
   #man {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin-right: 3vw;
     margin-top: 10vw;
   }
 
   .header__text {
-    font-size: 22px;
+    font-size: 17px;
     align-items: flex-end;
     margin-right: 3vw;
   }
 
+  .p--fir {
+    color: var(--orange);
+  }
+
   main {
-    width: 50vw;
+    width: 62vw;
     position: absolute;
-    left: 36vw;
-    top: 60px;
+    left: 31vw;
+    top: 50px;
   }
 
   .intro,
   .bar {
-    width: 50vw;
+    width: 62vw;
   }
 
   button {
-    width: 180px;
+    width: 200px;
     margin-bottom: 30px;
   }
 
   .intro__title {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 40px;
-    margin: 70px 0px 40px 0px;
+    margin: 40px 0px;
   }
 
   .intro__subtitle,
@@ -84,16 +87,16 @@
   #img4,
   #img5,
   #img6 {
-    width: 20vw;
-    height: 12vw;
+    width: 30vw;
+    height: 18vw;
   }
 
   .left-img {
-    margin-right: 2vw;
+    margin-right: 3vw;
   }
 
   .contact {
-    width: 50vw;
+    width: 62vw;
     padding-bottom: 40px;
   }
 
@@ -104,23 +107,23 @@
 
   .contact__inputs__input {
     display: flex;
-    width: 30vw;
+    width: 40vw;
     justify-content: space-between;
   }
 
   #input--name,
   #input--email {
-    width: 14.5vw;
-    margin-bottom: 1vw;
+    width: 19vw;
+    margin-bottom: 2vw;
   }
 
   #input--message {
-    width: 30vw;
-    height: 12vw;
+    width: 40vw;
+    height: 15vw;
   }
 
   .contact__icons {
-    width: 22vw;
+    width: 25vw;
     margin-top: 0px;
   }
   .contact__icons__home > i {
@@ -145,8 +148,8 @@
   }
 
   footer {
-    width: 32vw;
-    height: 20vh;
+    width: 28vw;
+    height: 30vh;
     background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.5) 0%,
@@ -157,7 +160,7 @@
     flex-direction: column;
     position: fixed;
     left: 0;
-    top: 80vh;
+    top: 70vh;
     bottom: 0;
     align-items: flex-end;
     justify-content: center;
@@ -165,20 +168,13 @@
   }
 
   .footer__icons {
-    font-size: 27px;
+    font-size: 25px;
     margin: 30px 3vw 30px 0px;
   }
-  .footer__icons > i {
-    margin-left: 13px;
-  }
   .footer__text {
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     margin-right: 3vw;
-  }
-  .footer__text--fir,
-  .footer__text--sec {
-    border-right: 1px solid var(--darkgray);
-    padding-right: 5px;
-    margin-right: 5px;
   }
 }

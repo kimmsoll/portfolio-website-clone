@@ -7,11 +7,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
-@import 'mediaquery/mobile.css';
-@import 'mediaquery/small.css';
-@import 'mediaquery/medium.css';
-@import 'mediaquery/large.css';
-@import 'mediaquery/big.css';
+@import 'mobile.css';
+@import 'small.css';
+@import 'medium.css';
+@import 'large.css';
+@import 'big.css';
 
 body {
   font-family: 'Roboto', sans-serif;
